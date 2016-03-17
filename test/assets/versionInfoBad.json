@@ -1,0 +1,10 @@
+{
+    "buildid" : "2016-03-14_20-10-33",
+    "repository" : "foobar",
+    "branch" : "updateenv",
+    "timestamp" : "20160314160734",
+    "docker" : {
+        "image" : "namespaced_foobar",
+        "tag" : "98dac66"
+    }
+}"

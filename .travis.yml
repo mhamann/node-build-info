@@ -1,0 +1,14 @@
+language: node_js
+dist: trusty
+node_js:
+- '8'
+- '6'
+- '4'
+deploy:
+  provider: npm
+  email: matthew.hamann@gmail.com
+  api_key:
+    secure: jQ8I9dpNdIteZ9tgFaZwVgHDuI+Fic/d8YipVrZMXD3lD2ypxDue7MXrbQuJn0i+6MKTWPKv+gcB6sxWpCZaf0lZaHd1ad+edU/gH6ZjWZZ0K4q6egfGnjU09f3fLLChsLhY0qc2kYyO6CcQ4yA/K57Q6FaGat5esacj6D8J8bslSbCdUe8aE75tKvx7wrSO+0Hl9MGy8+6tg5n6RlpifKRI8k+VdLneCAEkGxLUfHLATt9uwrvkjUqAMlM18ta0cyy8Sbmv2M0pz0ReRmiDVKfMQQ7whFrbULeFp0cEoU79bgnF7Bpp9ibnfOSOaG9mIO03b70qxaMiWRt6vgF38FIf5aOGpiGA7kZDM/OrUK7lp0V0Zxq9ktwdW2lUW6g5zZq8a1XW8QAtlWx7uCBq9Xgy+yHFjUjp0DEq4llKYN2sjrKdffyCS2a8pT1okH315kdrp8NFK323L/nmNM+WYXeeV7Fa0S0x7TP97LXdo7XVBGykZEJXweFrMcE3uf99Do4Tt6fE8ckfXp99xjfmkzkJAyO5W14qbrT33rkmQ4wwmrGZv5dhr7p4RN3yMBhbvU+7azlhSIk1fRvBHgYlNeUq5XOpk03JSCwkXfVaEHOvhAHtNh73txOHYRqfb+aTDt5LWOuHY6heUhtmoFK1wXArkG6WdzfhYfGeU/IJMA8=
+  on:
+    tags: true
+    repo: mhamann/node-build-info
